@@ -22,7 +22,6 @@ This project is a short example of implementation A* pathfinding algorithm paire
 
 ## Prerequisites 
 
-This is an example of how to list things you need to use the software.  
 * [node.js](https://nodejs.org/en/)   
 
 To install this project you need to:  
