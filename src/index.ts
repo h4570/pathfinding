@@ -24,14 +24,15 @@ export const ECS = new World();
 
 Setup.init();
 
-new Game().init();
+const game = new Game();
 
 const clock = new Clock();
 const gameLoop = () => {
+    requestAnimationFrame(gameLoop);
     const delta = clock.getDelta();
     const elapsedTime = clock.elapsedTime;
+    game.onUpdate(delta, elapsedTime);
     ECS.execute(delta, elapsedTime);
     Renderer.render(Scene, Camera);
-    requestAnimationFrame(gameLoop);
 }
 gameLoop();

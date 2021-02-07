@@ -1,24 +1,27 @@
-import { Color, PointLight } from "three";
-import { Camera, Scene } from ".";
-import { Cube } from "./entities/cube";
+import { AmbientLight, Color } from "three";
+import { Scene } from ".";
+import { Camera } from "./camera";
+import { CubeManager } from "./managers/cube-manager";
 
 export class Game {
 
-    public init(): void {
-        Cube.Create();
-        this.setCamera();
+    private size = 25;
+    private camera = new Camera(this.size / 2);
+    private cubeManager = new CubeManager(this.size);
+
+    constructor() {
         this.setLight();
         console.log('Game - initialized!');
     }
 
-    private setCamera() {
-        Camera.position.z = 35;
+    public onUpdate(delta: number, time: number): void { // every frame
+        this.camera.onUpdate();
+        this.cubeManager.onUpdate(delta, time);
     }
 
     private setLight() {
         const white = new Color('hsl(0, 100%, 100%)');
-        const light = new PointLight(white, 2);
-        light.position.set(-40, -20, 20);
+        const light = new AmbientLight(white, 2);
         Scene.add(light);
     }
 
