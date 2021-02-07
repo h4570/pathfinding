@@ -47,6 +47,8 @@ Distributed under the Apache License 2.0 License. See `LICENSE` for more informa
 
 Project Link: [https://github.com/h4570/pathfinding](https://github.com/h4570/pathfinding)  
 
+[![Stargazers repo roster for h4570/pathfinding](https://reporoster.com/stars/h4570/pathfinding)](https://github.com/h4570/pathfinding/stargazers)
+
 [contributors-shield]: https://img.shields.io/github/contributors/h4570/pathfinding.svg?style=flat-square  
 [contributors-url]: https://github.com/h4570/pathfinding/graphs/contributors 
 [license-shield]: https://img.shields.io/github/license/h4570/pathfinding.svg?style=flat-square  
