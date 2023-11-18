@@ -4,7 +4,7 @@
 <br />
 <p align="center">
 
-  <img src="http://apgcglz.cluster028.hosting.ovh.net/github/pathfinding/main.gif" alt="sample" width="50%" height="auto">  
+  <img src="https://raw.githubusercontent.com/h4570/pathfinding/master/docs/main.gif" alt="sample" width="50%" height="auto">  
 
   <h3 align="center">Pathfinding with A* algorithm</h3>
 
