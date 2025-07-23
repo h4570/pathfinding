@@ -45,6 +45,7 @@ npm run live
 Distributed under the Apache License 2.0 License. See `LICENSE` for more information. 
 
 Project Link: [https://github.com/h4570/pathfinding](https://github.com/h4570/pathfinding)  
+Check my blog at <a href="https://hasto.pl">hasto.pl</a>  
 
 [![Stargazers repo roster for h4570/pathfinding](https://reporoster.com/stars/h4570/pathfinding)](https://github.com/h4570/pathfinding/stargazers)
 
